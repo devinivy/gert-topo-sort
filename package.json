@@ -1,7 +1,7 @@
 {
   "name": "gert-topo-sort",
-  "version": "0.0.0",
-  "description": "Topologically sort directed Gert graphs",
+  "version": "1.0.0",
+  "description": "Topologically sort Gert graphs",
   "main": "lib/index.js",
   "directories": {
     "test": "test"
