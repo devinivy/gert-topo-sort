@@ -1,0 +1,40 @@
+{
+  "name": "gert-topo-sort",
+  "version": "0.0.0",
+  "description": "Topologically sort directed Gert graphs",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "lab -a code -t 100 -L",
+    "coveralls": "lab -a code -r lcov | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devinivy/gert-topo-sort"
+  },
+  "keywords": [
+    "graph",
+    "sort",
+    "topological",
+    "topo",
+    "algorithm",
+    "algorithms"
+  ],
+  "author": "Devin Ivy <devin@bigroomstudios.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devinivy/gert-topo-sort/issues"
+  },
+  "homepage": "https://github.com/devinivy/gert-topo-sort",
+  "peerDependencies": {
+    "gert": "2.x.x"
+  },
+  "devDependencies": {
+    "code": "1.x.x",
+    "coveralls": "2.x.x",
+    "gert": "2.x.x",
+    "lab": "6.x.x"
+  }
+}
